@@ -1,0 +1,25 @@
+version: 1
+variants:
+- id: 1001
+  vehicle: br_eye_candy_placeholder
+  profile: default
+  livery: default
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 1
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1001_br_eye_candy_placeholder_default_default_train.gnml
+  identifier: br_eye_candy_placeholder_default_default_train
+  name_string: str_br_eye_candy_placeholder_default_default_train_name
+  strings:
+    str_br_eye_candy_placeholder_default_default_train_name: '{RED}(devmode){BLACK}
+      BREyeCandy Placeholder - {SILVER}coach{BLACK}'
+    str_br_eye_candy_placeholder_default_default_train_group_name: '{RED}(devmode){BLACK}
+      BREyeCandy Placeholder - {SILVER}coach{BLACK}'
+    str_br_eye_candy_placeholder_default_default_train_nested_name: '{SILVER}coach{BLACK}'

@@ -1,0 +1,133 @@
+{
+  "build_date": "2026-11-26T01:55:49.762066Z",
+  "build_success": true,
+  "builder_commit": "8b3095b689a251007bff8d0883b60da756d6f75b",
+  "generated_at": "2026-11-26T01:55:49.762066Z",
+  "liveries": [
+    {
+      "name": "Default",
+      "profile_restrictions": [],
+      "special_tags": [],
+      "spritesheet": null,
+      "variants": [
+        "br_eye_candy_placeholder_default_default_train"
+      ],
+      "vehicle_identifier": "br_eye_candy_placeholder"
+    }
+  ],
+  "profiles": [
+    {
+      "identifier": "default",
+      "name": null,
+      "resolved": {
+        "capacity": 1,
+        "cargo_classes": [
+          "CC_PASSENGERS"
+        ],
+        "default_cargo_type": null,
+        "introduction_date": "date(2026, 1, 1)",
+        "num_vehicles": 1,
+        "power": 0,
+        "speed": 1,
+        "sprite_pattern": [],
+        "track_type": null,
+        "weight": 1
+      },
+      "source_restrictions": {
+        "special_tags": [],
+        "sprite_group": null
+      },
+      "sprite_group": null,
+      "spritesheet": null,
+      "variants": [
+        "br_eye_candy_placeholder_default_default_train"
+      ],
+      "vehicle_identifier": "br_eye_candy_placeholder"
+    }
+  ],
+  "project": "BREyeCandy",
+  "schema_version": 1,
+  "variants": [
+    {
+      "formation": {
+        "part_count": 1,
+        "sprite_pattern": []
+      },
+      "lighting": {
+        "overlay": null,
+        "transparent": null
+      },
+      "livery": {
+        "name": "Default"
+      },
+      "profile": {
+        "identifier": "default",
+        "name": null
+      },
+      "purchase": null,
+      "source_restrictions": {
+        "livery_profiles": [],
+        "livery_spritesheet": null,
+        "profile_spritesheet": null
+      },
+      "sprite_group": {
+        "reused": false,
+        "source": null
+      },
+      "sprite_id": {
+        "generation": 1,
+        "id": 1001
+      },
+      "spritesets": [],
+      "variant": {
+        "display_name": "BREyeCandy Placeholder - {SILVER}coach{BLACK}",
+        "graphics_emitted": false,
+        "identifier": "br_eye_candy_placeholder_default_default_train",
+        "nml_filename": {
+          "kind": "nml",
+          "path": "br_eye_candy_placeholder_default_default_train.gnml"
+        },
+        "vehicle_type": "TRAIN"
+      },
+      "vehicle": {
+        "identifier": "br_eye_candy_placeholder",
+        "name": "BREyeCandy Placeholder"
+      }
+    }
+  ],
+  "vehicles": [
+    {
+      "based_on": "",
+      "identifier": "br_eye_candy_placeholder",
+      "introduction_date": "date(2026, 1, 1)",
+      "name": "BREyeCandy Placeholder",
+      "source_yaml": {
+        "kind": "source_yaml",
+        "path": "src/vehicles/BREyeCandyPlaceholder/BREyeCandyPlaceholder.yaml"
+      },
+      "special_tags": [],
+      "spritesheet": {
+        "kind": "source_artwork",
+        "path": "src/vehicles/BREyeCandyPlaceholder/BREyeCandyPlaceholder.png"
+      },
+      "stats": {
+        "capacity": null,
+        "cargo_classes": [
+          "CC_PASSENGERS"
+        ],
+        "default_cargo_type": null,
+        "design_speed": null,
+        "loading_speed": null,
+        "power": 0,
+        "power_type": null,
+        "speed": 1,
+        "track_type": null,
+        "tractive_effort": 0,
+        "weight": 1
+      },
+      "subtitle": "",
+      "train_type": "COACH",
+      "vehicle_type": "TRAIN"
+    }
+  ]
+}

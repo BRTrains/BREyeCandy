@@ -1,0 +1,14 @@
+grf:
+  grfid: BREY
+  short_name: BREyeCandy
+  name: BREyeCandy
+  description: Eye-candy vehicles for BRTrains
+
+versioning:
+  version: 1
+  compatible_version: 1
+
+purchase_list:
+  order: grouped
+
+global_vehicle_switches: []
