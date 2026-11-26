@@ -1,0 +1,31 @@
+
+
+info:
+  identifier: br_kestrel
+  name: 'Kestrel'
+
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  weight: 133
+  length: 8
+  power: 4000
+  speed: 110
+  tractive_effort: 0.275
+  power_type:
+    - diesel
+
+usage: [PROTOTYPE]
+
+cargo: none
+dates:
+  introduction_date: 1967-01-01
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 0
+
+liveries:
+  - name: 'Kestrel Black and Yellow'
+    special_tags: [operator/BR]

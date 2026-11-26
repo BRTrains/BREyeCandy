@@ -1,13 +1,13 @@
 version: 1
 variants:
-- id: 1001
+- id: null
   vehicle: br_eye_candy_placeholder
   profile: default
   livery: default
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 1
@@ -23,3 +23,1580 @@ variants:
     str_br_eye_candy_placeholder_default_default_train_group_name: '{RED}(devmode){BLACK}
       BREyeCandy Placeholder - {SILVER}coach{BLACK}'
     str_br_eye_candy_placeholder_default_default_train_nested_name: '{SILVER}coach{BLACK}'
+- id: 1001
+  vehicle: br_252
+  profile: default
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 60
+    articulated_count: 11
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1001_br_252_default_br_blue_train.gnml
+  identifier: br_252_default_br_blue_train
+  name_string: str_br_252_default_br_blue_train_name
+  strings:
+    str_br_252_default_br_blue_train_name: Class 41 "HST Prototype" - {SILVER}11-car{BLACK}
+      - {GOLD}BR Blue
+    str_br_252_default_br_blue_train_group_name: Class 41 "HST Prototype" - {SILVER}11-car{BLACK}
+      - {GOLD}BR Blue
+    str_br_252_default_br_blue_train_nested_name: '{SILVER}11-car{BLACK} - {GOLD}BR
+      Blue'
+- id: 1002
+  vehicle: br_151
+  profile: default
+  livery: br prototype
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 77
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1002_br_151_default_br_prototype_train.gnml
+  identifier: br_151_default_br_prototype_train
+  name_string: str_br_151_default_br_prototype_train_name
+  strings:
+    str_br_151_default_br_prototype_train_name: Class 151 "Sprinter" - {SILVER}3-car{BLACK}
+      - {GOLD}BR Prototype
+    str_br_151_default_br_prototype_train_group_name: Class 151 "Sprinter" - {SILVER}3-car{BLACK}
+      - {GOLD}BR Prototype
+    str_br_151_default_br_prototype_train_nested_name: '{SILVER}3-car{BLACK} - {GOLD}BR
+      Prototype'
+- id: 1003
+  vehicle: br_151
+  profile: default
+  livery: regional railways
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 77
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1003_br_151_default_regional_railways_train.gnml
+  identifier: br_151_default_regional_railways_train
+  name_string: str_br_151_default_regional_railways_train_name
+  strings:
+    str_br_151_default_regional_railways_train_name: Class 151 "Sprinter" - {SILVER}3-car{BLACK}
+      - {GOLD}Regional Railways
+    str_br_151_default_regional_railways_train_group_name: Class 151 "Sprinter" -
+      {SILVER}3-car{BLACK} - {GOLD}Regional Railways
+    str_br_151_default_regional_railways_train_nested_name: '{SILVER}3-car{BLACK}
+      - {GOLD}Regional Railways'
+- id: 1004
+  vehicle: br_151
+  profile: default
+  livery: livery refits
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 77
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1004_br_151_default_livery_refits_train.gnml
+  identifier: br_151_default_livery_refits_train
+  name_string: str_br_151_default_livery_refits_train_name
+  strings:
+    str_br_151_default_livery_refits_train_name: Class 151 "Sprinter" - {SILVER}3-car{BLACK}
+      - {GOLD}Livery Refits
+    str_br_151_default_livery_refits_train_group_name: Class 151 "Sprinter" - {SILVER}3-car{BLACK}
+      - {GOLD}Livery Refits
+    str_br_151_default_livery_refits_train_nested_name: '{SILVER}3-car{BLACK} - {GOLD}Livery
+      Refits'
+    str_br_151_default_livery_refits_train_refit_text_0: BR Prototype
+    str_br_151_default_livery_refits_train_refit_text_1: Regional Railways
+- id: 1005
+  vehicle: br_76_prototype
+  profile: default
+  livery: lner green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 6
+  archive: generated_variants/1005_br_76_prototype_default_lner_green_train.gnml
+  identifier: br_76_prototype_default_lner_green_train
+  name_string: str_br_76_prototype_default_lner_green_train_name
+  strings:
+    str_br_76_prototype_default_lner_green_train_name: Class 76 Prototype LNER Gresley
+      "EM1" - {SILVER}Locomotive{BLACK} - {GOLD}LNER Green
+    str_br_76_prototype_default_lner_green_train_group_name: Class 76 Prototype LNER
+      Gresley "EM1" - {SILVER}Locomotive{BLACK} - {GOLD}LNER Green
+    str_br_76_prototype_default_lner_green_train_nested_name: '{SILVER}Locomotive{BLACK}
+      - {GOLD}LNER Green'
+- id: 1006
+  vehicle: br_76_prototype
+  profile: default
+  livery: br black
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 6
+  archive: generated_variants/1006_br_76_prototype_default_br_black_train.gnml
+  identifier: br_76_prototype_default_br_black_train
+  name_string: str_br_76_prototype_default_br_black_train_name
+  strings:
+    str_br_76_prototype_default_br_black_train_name: Class 76 Prototype LNER Gresley
+      "EM1" - {SILVER}Locomotive{BLACK} - {GOLD}BR Black
+    str_br_76_prototype_default_br_black_train_group_name: Class 76 Prototype LNER
+      Gresley "EM1" - {SILVER}Locomotive{BLACK} - {GOLD}BR Black
+    str_br_76_prototype_default_br_black_train_nested_name: '{SILVER}Locomotive{BLACK}
+      - {GOLD}BR Black'
+- id: 1007
+  vehicle: br_76_prototype
+  profile: default
+  livery: br green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 6
+  archive: generated_variants/1007_br_76_prototype_default_br_green_train.gnml
+  identifier: br_76_prototype_default_br_green_train
+  name_string: str_br_76_prototype_default_br_green_train_name
+  strings:
+    str_br_76_prototype_default_br_green_train_name: Class 76 Prototype LNER Gresley
+      "EM1" - {SILVER}Locomotive{BLACK} - {GOLD}BR Green
+    str_br_76_prototype_default_br_green_train_group_name: Class 76 Prototype LNER
+      Gresley "EM1" - {SILVER}Locomotive{BLACK} - {GOLD}BR Green
+    str_br_76_prototype_default_br_green_train_nested_name: '{SILVER}Locomotive{BLACK}
+      - {GOLD}BR Green'
+- id: 1008
+  vehicle: br_76_prototype
+  profile: default
+  livery: br green (warning panels)
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 6
+  archive: generated_variants/1008_br_76_prototype_default_br_green__warning_panels__train.gnml
+  identifier: br_76_prototype_default_br_green__warning_panels__train
+  name_string: str_br_76_prototype_default_br_green__warning_panels__train_name
+  strings:
+    str_br_76_prototype_default_br_green__warning_panels__train_name: Class 76 Prototype
+      LNER Gresley "EM1" - {SILVER}Locomotive{BLACK} - {GOLD}BR Green Warning Panels
+    str_br_76_prototype_default_br_green__warning_panels__train_group_name: Class
+      76 Prototype LNER Gresley "EM1" - {SILVER}Locomotive{BLACK} - {GOLD}BR Green
+      Warning Panels
+    str_br_76_prototype_default_br_green__warning_panels__train_nested_name: '{SILVER}Locomotive{BLACK}
+      - {GOLD}BR Green Warning Panels'
+- id: 1009
+  vehicle: br_76_prototype
+  profile: default
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 6
+  archive: generated_variants/1009_br_76_prototype_default_br_blue_train.gnml
+  identifier: br_76_prototype_default_br_blue_train
+  name_string: str_br_76_prototype_default_br_blue_train_name
+  strings:
+    str_br_76_prototype_default_br_blue_train_name: Class 76 Prototype LNER Gresley
+      "EM1" - {SILVER}Locomotive{BLACK} - {GOLD}BR Blue
+    str_br_76_prototype_default_br_blue_train_group_name: Class 76 Prototype LNER
+      Gresley "EM1" - {SILVER}Locomotive{BLACK} - {GOLD}BR Blue
+    str_br_76_prototype_default_br_blue_train_nested_name: '{SILVER}Locomotive{BLACK}
+      - {GOLD}BR Blue'
+- id: 1010
+  vehicle: br_76_prototype
+  profile: default
+  livery: livery refits
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 6
+  archive: generated_variants/1010_br_76_prototype_default_livery_refits_train.gnml
+  identifier: br_76_prototype_default_livery_refits_train
+  name_string: str_br_76_prototype_default_livery_refits_train_name
+  strings:
+    str_br_76_prototype_default_livery_refits_train_name: Class 76 Prototype LNER
+      Gresley "EM1" - {SILVER}Locomotive{BLACK} - {GOLD}Livery Refits
+    str_br_76_prototype_default_livery_refits_train_group_name: Class 76 Prototype
+      LNER Gresley "EM1" - {SILVER}Locomotive{BLACK} - {GOLD}Livery Refits
+    str_br_76_prototype_default_livery_refits_train_nested_name: '{SILVER}Locomotive{BLACK}
+      - {GOLD}Livery Refits'
+    str_br_76_prototype_default_livery_refits_train_refit_text_0: LNER Green
+    str_br_76_prototype_default_livery_refits_train_refit_text_1: BR Black
+    str_br_76_prototype_default_livery_refits_train_refit_text_2: BR Green
+    str_br_76_prototype_default_livery_refits_train_refit_text_3: BR Green Warning
+      Panels
+    str_br_76_prototype_default_livery_refits_train_refit_text_4: BR Blue
+- id: 1011
+  vehicle: br_799
+  profile: '7994'
+  livery: porterbrook hydroflex green and white
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 61
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1011_br_799_7994_porterbrook_hydroflex_green_and_white_train.gnml
+  identifier: br_799_7994_porterbrook_hydroflex_green_and_white_train
+  name_string: str_br_799_7994_porterbrook_hydroflex_green_and_white_train_name
+  strings:
+    str_br_799_7994_porterbrook_hydroflex_green_and_white_train_name: Class 799 Hydrogen
+      Prototype - {SILVER}4-car{BLACK} - {GOLD}Porterbrook Hydroflex Green and White
+    str_br_799_7994_porterbrook_hydroflex_green_and_white_train_group_name: Class
+      799 Hydrogen Prototype - {SILVER}4-car{BLACK} - {GOLD}Porterbrook Hydroflex
+      Green and White
+    str_br_799_7994_porterbrook_hydroflex_green_and_white_train_nested_name: '{SILVER}4-car{BLACK}
+      - {GOLD}Porterbrook Hydroflex Green and White'
+- id: 1012
+  vehicle: br_flying_banana
+  profile: default
+  livery: network rail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 44
+    articulated_count: 7
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1012_br_flying_banana_default_network_rail_train.gnml
+  identifier: br_flying_banana_default_network_rail_train
+  name_string: str_br_flying_banana_default_network_rail_train_name
+  strings:
+    str_br_flying_banana_default_network_rail_train_name: Flying Banana - {SILVER}5-car{BLACK}
+      - {GOLD}Network Rail
+    str_br_flying_banana_default_network_rail_train_group_name: Flying Banana - {SILVER}5-car{BLACK}
+      - {GOLD}Network Rail
+    str_br_flying_banana_default_network_rail_train_nested_name: '{SILVER}5-car{BLACK}
+      - {GOLD}Network Rail'
+- id: 1013
+  vehicle: br_mpv_dualfreight
+  profile: default
+  livery: network rail yellow
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 40
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1013_br_mpv_dualfreight_default_network_rail_yellow_train.gnml
+  identifier: br_mpv_dualfreight_default_network_rail_yellow_train
+  name_string: str_br_mpv_dualfreight_default_network_rail_yellow_train_name
+  strings:
+    str_br_mpv_dualfreight_default_network_rail_yellow_train_name: BR MPV Dual Freight
+      - {SILVER}2-car{BLACK} - {GOLD}Network Rail Yellow
+    str_br_mpv_dualfreight_default_network_rail_yellow_train_group_name: BR MPV Dual
+      Freight - {SILVER}2-car{BLACK} - {GOLD}Network Rail Yellow
+    str_br_mpv_dualfreight_default_network_rail_yellow_train_nested_name: '{SILVER}2-car{BLACK}
+      - {GOLD}Network Rail Yellow'
+- id: 1014
+  vehicle: br_mpv_dualfreight
+  profile: default
+  livery: network rail blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 40
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1014_br_mpv_dualfreight_default_network_rail_blue_train.gnml
+  identifier: br_mpv_dualfreight_default_network_rail_blue_train
+  name_string: str_br_mpv_dualfreight_default_network_rail_blue_train_name
+  strings:
+    str_br_mpv_dualfreight_default_network_rail_blue_train_name: BR MPV Dual Freight
+      - {SILVER}2-car{BLACK} - {GOLD}Network Rail Blue
+    str_br_mpv_dualfreight_default_network_rail_blue_train_group_name: BR MPV Dual
+      Freight - {SILVER}2-car{BLACK} - {GOLD}Network Rail Blue
+    str_br_mpv_dualfreight_default_network_rail_blue_train_nested_name: '{SILVER}2-car{BLACK}
+      - {GOLD}Network Rail Blue'
+- id: 1015
+  vehicle: br_mpv_dualfreight
+  profile: default
+  livery: livery refits
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 40
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1015_br_mpv_dualfreight_default_livery_refits_train.gnml
+  identifier: br_mpv_dualfreight_default_livery_refits_train
+  name_string: str_br_mpv_dualfreight_default_livery_refits_train_name
+  strings:
+    str_br_mpv_dualfreight_default_livery_refits_train_name: BR MPV Dual Freight -
+      {SILVER}2-car{BLACK} - {GOLD}Livery Refits
+    str_br_mpv_dualfreight_default_livery_refits_train_group_name: BR MPV Dual Freight
+      - {SILVER}2-car{BLACK} - {GOLD}Livery Refits
+    str_br_mpv_dualfreight_default_livery_refits_train_nested_name: '{SILVER}2-car{BLACK}
+      - {GOLD}Livery Refits'
+    str_br_mpv_dualfreight_default_livery_refits_train_refit_text_0: Network Rail
+      Yellow
+    str_br_mpv_dualfreight_default_livery_refits_train_refit_text_1: Network Rail
+      Blue
+- id: 1016
+  vehicle: br_80
+  profile: default
+  livery: br black
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1016_br_80_default_br_black_train.gnml
+  identifier: br_80_default_br_black_train
+  name_string: str_br_80_default_br_black_train_name
+  strings:
+    str_br_76_prototype_default_br_black_train_nested_name: '{SILVER}Locomotive{BLACK}
+      - {GOLD}BR Black'
+    str_br_80_default_br_black_train_name: Class 80 25kV Prototype - {SILVER}Locomotive{BLACK}
+      - {GOLD}BR Black
+    str_br_80_default_br_black_train_group_name: Class 80 25kV Prototype - {SILVER}Locomotive{BLACK}
+      - {GOLD}BR Black
+- id: 1017
+  vehicle: br_13
+  profile: default
+  livery: br green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 4
+    - 4
+  archive: generated_variants/1017_br_13_default_br_green_train.gnml
+  identifier: br_13_default_br_green_train
+  name_string: str_br_13_default_br_green_train_name
+  strings:
+    str_br_76_prototype_default_br_green_train_nested_name: '{SILVER}Locomotive{BLACK}
+      - {GOLD}BR Green'
+    str_br_13_default_br_green_train_name: Class 13 - {SILVER}Locomotive{BLACK} -
+      {GOLD}BR Green
+    str_br_13_default_br_green_train_group_name: Class 13 - {SILVER}Locomotive{BLACK}
+      - {GOLD}BR Green
+- id: 1018
+  vehicle: br_13
+  profile: default
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 4
+    - 4
+  archive: generated_variants/1018_br_13_default_br_blue_train.gnml
+  identifier: br_13_default_br_blue_train
+  name_string: str_br_13_default_br_blue_train_name
+  strings:
+    str_br_76_prototype_default_br_blue_train_nested_name: '{SILVER}Locomotive{BLACK}
+      - {GOLD}BR Blue'
+    str_br_13_default_br_blue_train_name: Class 13 - {SILVER}Locomotive{BLACK} - {GOLD}BR
+      Blue
+    str_br_13_default_br_blue_train_group_name: Class 13 - {SILVER}Locomotive{BLACK}
+      - {GOLD}BR Blue
+- id: 1019
+  vehicle: br_13
+  profile: default
+  livery: livery refits
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 4
+    - 4
+  archive: generated_variants/1019_br_13_default_livery_refits_train.gnml
+  identifier: br_13_default_livery_refits_train
+  name_string: str_br_13_default_livery_refits_train_name
+  strings:
+    str_br_76_prototype_default_livery_refits_train_nested_name: '{SILVER}Locomotive{BLACK}
+      - {GOLD}Livery Refits'
+    str_br_13_default_livery_refits_train_name: Class 13 - {SILVER}Locomotive{BLACK}
+      - {GOLD}Livery Refits
+    str_br_13_default_livery_refits_train_group_name: Class 13 - {SILVER}Locomotive{BLACK}
+      - {GOLD}Livery Refits
+    str_br_76_prototype_default_livery_refits_train_refit_text_2: BR Green
+    str_br_76_prototype_default_livery_refits_train_refit_text_4: BR Blue
+- id: 1020
+  vehicle: br_140
+  profile: default
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 52
+    articulated_count: 2
+    lengths:
+    - 7
+    - 7
+  archive: generated_variants/1020_br_140_default_br_blue_train.gnml
+  identifier: br_140_default_br_blue_train
+  name_string: str_br_140_default_br_blue_train_name
+  strings:
+    str_br_140_default_br_blue_train_name: Class 140 "Pacer Prototype" - {SILVER}2-car{BLACK}
+      - {GOLD}BR Blue
+    str_br_140_default_br_blue_train_group_name: Class 140 "Pacer Prototype" - {SILVER}2-car{BLACK}
+      - {GOLD}BR Blue
+    str_br_140_default_br_blue_train_nested_name: '{SILVER}2-car{BLACK} - {GOLD}BR
+      Blue'
+- id: 1021
+  vehicle: br_mpv_single
+  profile: default
+  livery: network rail yellow open
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1021_br_mpv_single_default_network_rail_yellow_open_train.gnml
+  identifier: br_mpv_single_default_network_rail_yellow_open_train
+  name_string: str_br_mpv_single_default_network_rail_yellow_open_train_name
+  strings:
+    str_br_mpv_single_default_network_rail_yellow_open_train_name: BR MPV Single -
+      {SILVER}Locomotive{BLACK} - {GOLD}Network Rail Yellow Open
+    str_br_mpv_single_default_network_rail_yellow_open_train_group_name: BR MPV Single
+      - {SILVER}Locomotive{BLACK} - {GOLD}Network Rail Yellow Open
+    str_br_mpv_single_default_network_rail_yellow_open_train_nested_name: '{SILVER}Locomotive{BLACK}
+      - {GOLD}Network Rail Yellow Open'
+- id: 1022
+  vehicle: br_mpv_single
+  profile: default
+  livery: network rail yellow geometry
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1022_br_mpv_single_default_network_rail_yellow_geometry_train.gnml
+  identifier: br_mpv_single_default_network_rail_yellow_geometry_train
+  name_string: str_br_mpv_single_default_network_rail_yellow_geometry_train_name
+  strings:
+    str_br_mpv_single_default_network_rail_yellow_geometry_train_name: BR MPV Single
+      - {SILVER}Locomotive{BLACK} - {GOLD}Network Rail Yellow Geometry
+    str_br_mpv_single_default_network_rail_yellow_geometry_train_group_name: BR MPV
+      Single - {SILVER}Locomotive{BLACK} - {GOLD}Network Rail Yellow Geometry
+    str_br_mpv_single_default_network_rail_yellow_geometry_train_nested_name: '{SILVER}Locomotive{BLACK}
+      - {GOLD}Network Rail Yellow Geometry'
+- id: 1023
+  vehicle: br_mpv_single
+  profile: default
+  livery: network rail blue open
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1023_br_mpv_single_default_network_rail_blue_open_train.gnml
+  identifier: br_mpv_single_default_network_rail_blue_open_train
+  name_string: str_br_mpv_single_default_network_rail_blue_open_train_name
+  strings:
+    str_br_mpv_single_default_network_rail_blue_open_train_name: BR MPV Single - {SILVER}Locomotive{BLACK}
+      - {GOLD}Network Rail Blue Open
+    str_br_mpv_single_default_network_rail_blue_open_train_group_name: BR MPV Single
+      - {SILVER}Locomotive{BLACK} - {GOLD}Network Rail Blue Open
+    str_br_mpv_single_default_network_rail_blue_open_train_nested_name: '{SILVER}Locomotive{BLACK}
+      - {GOLD}Network Rail Blue Open'
+- id: 1024
+  vehicle: br_mpv_single
+  profile: default
+  livery: network rail blue geometry
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1024_br_mpv_single_default_network_rail_blue_geometry_train.gnml
+  identifier: br_mpv_single_default_network_rail_blue_geometry_train
+  name_string: str_br_mpv_single_default_network_rail_blue_geometry_train_name
+  strings:
+    str_br_mpv_single_default_network_rail_blue_geometry_train_name: BR MPV Single
+      - {SILVER}Locomotive{BLACK} - {GOLD}Network Rail Blue Geometry
+    str_br_mpv_single_default_network_rail_blue_geometry_train_group_name: BR MPV
+      Single - {SILVER}Locomotive{BLACK} - {GOLD}Network Rail Blue Geometry
+    str_br_mpv_single_default_network_rail_blue_geometry_train_nested_name: '{SILVER}Locomotive{BLACK}
+      - {GOLD}Network Rail Blue Geometry'
+- id: 1025
+  vehicle: br_mpv_single
+  profile: default
+  livery: livery refits
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1025_br_mpv_single_default_livery_refits_train.gnml
+  identifier: br_mpv_single_default_livery_refits_train
+  name_string: str_br_mpv_single_default_livery_refits_train_name
+  strings:
+    str_br_76_prototype_default_livery_refits_train_nested_name: '{SILVER}Locomotive{BLACK}
+      - {GOLD}Livery Refits'
+    str_br_mpv_single_default_livery_refits_train_name: BR MPV Single - {SILVER}Locomotive{BLACK}
+      - {GOLD}Livery Refits
+    str_br_mpv_single_default_livery_refits_train_group_name: BR MPV Single - {SILVER}Locomotive{BLACK}
+      - {GOLD}Livery Refits
+    str_br_mpv_single_default_livery_refits_train_refit_text_0: Network Rail Yellow
+      Open
+    str_br_mpv_single_default_livery_refits_train_refit_text_1: Network Rail Yellow
+      Geometry
+    str_br_mpv_single_default_livery_refits_train_refit_text_2: Network Rail Blue
+      Open
+    str_br_mpv_single_default_livery_refits_train_refit_text_3: Network Rail Blue
+      Geometry
+- id: 1026
+  vehicle: br_18100
+  profile: default
+  livery: br black
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1026_br_18100_default_br_black_train.gnml
+  identifier: br_18100_default_br_black_train
+  name_string: str_br_18100_default_br_black_train_name
+  strings:
+    str_br_76_prototype_default_br_black_train_nested_name: '{SILVER}Locomotive{BLACK}
+      - {GOLD}BR Black'
+    str_br_18100_default_br_black_train_name: BR 18100 Gas Turbine Prototype - {SILVER}Locomotive{BLACK}
+      - {GOLD}BR Black
+    str_br_18100_default_br_black_train_group_name: BR 18100 Gas Turbine Prototype
+      - {SILVER}Locomotive{BLACK} - {GOLD}BR Black
+- id: 1027
+  vehicle: br_mpv_dualtrack
+  profile: dualtrack_2
+  livery: network rail yellow empty
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1027_br_mpv_dualtrack_dualtrack_2_network_rail_yellow_empty_train.gnml
+  identifier: br_mpv_dualtrack_dualtrack_2_network_rail_yellow_empty_train
+  name_string: str_br_mpv_dualtrack_dualtrack_2_network_rail_yellow_empty_train_name
+  strings:
+    str_br_mpv_dualtrack_dualtrack_2_network_rail_yellow_empty_train_name: British
+      Rail MPV Dual-Track - {SILVER}Locomotive{BLACK} - {GOLD}Network Rail Yellow
+      Empty
+    str_br_mpv_dualtrack_dualtrack_2_network_rail_yellow_empty_train_group_name: British
+      Rail MPV Dual-Track - {SILVER}Locomotive{BLACK} - {GOLD}Network Rail Yellow
+      Empty
+    str_br_mpv_dualtrack_dualtrack_2_network_rail_yellow_empty_train_nested_name: '{SILVER}Locomotive{BLACK}
+      - {GOLD}Network Rail Yellow Empty'
+- id: 1028
+  vehicle: br_mpv_dualtrack
+  profile: dualtrack_2
+  livery: network rail yellow leaf
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1028_br_mpv_dualtrack_dualtrack_2_network_rail_yellow_leaf_train.gnml
+  identifier: br_mpv_dualtrack_dualtrack_2_network_rail_yellow_leaf_train
+  name_string: str_br_mpv_dualtrack_dualtrack_2_network_rail_yellow_leaf_train_name
+  strings:
+    str_br_mpv_dualtrack_dualtrack_2_network_rail_yellow_leaf_train_name: British
+      Rail MPV Dual-Track - {SILVER}Locomotive{BLACK} - {GOLD}Network Rail Yellow
+      Leaf
+    str_br_mpv_dualtrack_dualtrack_2_network_rail_yellow_leaf_train_group_name: British
+      Rail MPV Dual-Track - {SILVER}Locomotive{BLACK} - {GOLD}Network Rail Yellow
+      Leaf
+    str_br_mpv_dualtrack_dualtrack_2_network_rail_yellow_leaf_train_nested_name: '{SILVER}Locomotive{BLACK}
+      - {GOLD}Network Rail Yellow Leaf'
+- id: 1029
+  vehicle: br_mpv_dualtrack
+  profile: dualtrack_2
+  livery: network rail blue empty
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1029_br_mpv_dualtrack_dualtrack_2_network_rail_blue_empty_train.gnml
+  identifier: br_mpv_dualtrack_dualtrack_2_network_rail_blue_empty_train
+  name_string: str_br_mpv_dualtrack_dualtrack_2_network_rail_blue_empty_train_name
+  strings:
+    str_br_mpv_dualtrack_dualtrack_2_network_rail_blue_empty_train_name: British Rail
+      MPV Dual-Track - {SILVER}Locomotive{BLACK} - {GOLD}Network Rail Blue Empty
+    str_br_mpv_dualtrack_dualtrack_2_network_rail_blue_empty_train_group_name: British
+      Rail MPV Dual-Track - {SILVER}Locomotive{BLACK} - {GOLD}Network Rail Blue Empty
+    str_br_mpv_dualtrack_dualtrack_2_network_rail_blue_empty_train_nested_name: '{SILVER}Locomotive{BLACK}
+      - {GOLD}Network Rail Blue Empty'
+- id: 1030
+  vehicle: br_mpv_dualtrack
+  profile: dualtrack_2
+  livery: network rail blue leaf
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1030_br_mpv_dualtrack_dualtrack_2_network_rail_blue_leaf_train.gnml
+  identifier: br_mpv_dualtrack_dualtrack_2_network_rail_blue_leaf_train
+  name_string: str_br_mpv_dualtrack_dualtrack_2_network_rail_blue_leaf_train_name
+  strings:
+    str_br_mpv_dualtrack_dualtrack_2_network_rail_blue_leaf_train_name: British Rail
+      MPV Dual-Track - {SILVER}Locomotive{BLACK} - {GOLD}Network Rail Blue Leaf
+    str_br_mpv_dualtrack_dualtrack_2_network_rail_blue_leaf_train_group_name: British
+      Rail MPV Dual-Track - {SILVER}Locomotive{BLACK} - {GOLD}Network Rail Blue Leaf
+    str_br_mpv_dualtrack_dualtrack_2_network_rail_blue_leaf_train_nested_name: '{SILVER}Locomotive{BLACK}
+      - {GOLD}Network Rail Blue Leaf'
+- id: 1031
+  vehicle: br_mpv_dualtrack
+  profile: dualtrack_2
+  livery: livery refits
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1031_br_mpv_dualtrack_dualtrack_2_livery_refits_train.gnml
+  identifier: br_mpv_dualtrack_dualtrack_2_livery_refits_train
+  name_string: str_br_mpv_dualtrack_dualtrack_2_livery_refits_train_name
+  strings:
+    str_br_76_prototype_default_livery_refits_train_nested_name: '{SILVER}Locomotive{BLACK}
+      - {GOLD}Livery Refits'
+    str_br_mpv_dualtrack_dualtrack_2_livery_refits_train_name: British Rail MPV Dual-Track
+      - {SILVER}Locomotive{BLACK} - {GOLD}Livery Refits
+    str_br_mpv_dualtrack_dualtrack_2_livery_refits_train_group_name: British Rail
+      MPV Dual-Track - {SILVER}Locomotive{BLACK} - {GOLD}Livery Refits
+    str_br_mpv_dualtrack_dualtrack_2_livery_refits_train_refit_text_0: Network Rail
+      Yellow Empty
+    str_br_mpv_dualtrack_dualtrack_2_livery_refits_train_refit_text_1: Network Rail
+      Yellow Leaf
+    str_br_mpv_dualtrack_dualtrack_2_livery_refits_train_refit_text_2: Network Rail
+      Blue Empty
+    str_br_mpv_dualtrack_dualtrack_2_livery_refits_train_refit_text_3: Network Rail
+      Blue Leaf
+- id: 1032
+  vehicle: br_apt_p
+  profile: apt_p_14
+  livery: intercity
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 52
+    articulated_count: 14
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1032_br_apt_p_apt_p_14_intercity_train.gnml
+  identifier: br_apt_p_apt_p_14_intercity_train
+  name_string: str_br_apt_p_apt_p_14_intercity_train_name
+  strings:
+    str_br_apt_p_apt_p_14_intercity_train_name: Class 370 APT-P - {SILVER}14-car{BLACK}
+      - {GOLD}InterCity
+    str_br_apt_p_apt_p_14_intercity_train_group_name: Class 370 APT-P - {SILVER}14-car{BLACK}
+      - {GOLD}InterCity
+    str_br_apt_p_apt_p_14_intercity_train_nested_name: '{SILVER}14-car{BLACK} - {GOLD}InterCity'
+- id: 1033
+  vehicle: br_apt_e
+  profile: apt_e_4
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 37
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1033_br_apt_e_apt_e_4_br_blue_train.gnml
+  identifier: br_apt_e_apt_e_4_br_blue_train
+  name_string: str_br_apt_e_apt_e_4_br_blue_train_name
+  strings:
+    str_br_apt_e_apt_e_4_br_blue_train_name: APT-E - {SILVER}4-car{BLACK} - {GOLD}BR
+      Blue
+    str_br_apt_e_apt_e_4_br_blue_train_group_name: APT-E - {SILVER}4-car{BLACK} -
+      {GOLD}BR Blue
+    str_br_apt_e_apt_e_4_br_blue_train_nested_name: '{SILVER}4-car{BLACK} - {GOLD}BR
+      Blue'
+- id: 1034
+  vehicle: eye_candy_invisible
+  profile: default
+  livery: invisible
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/1034_eye_candy_invisible_default_invisible_train.gnml
+  identifier: eye_candy_invisible_default_invisible_train
+  name_string: str_eye_candy_invisible_default_invisible_train_name
+  strings:
+    str_eye_candy_invisible_default_invisible_train_name: Invisible Locomotive - {GOLD}Invisible
+    str_eye_candy_invisible_default_invisible_train_group_name: Invisible Locomotive
+      - {GOLD}Invisible
+    str_eye_candy_invisible_default_invisible_train_nested_name: '{GOLD}Invisible'
+- id: 1035
+  vehicle: br_08
+  profile: default
+  livery: br green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1035_br_08_default_br_green_train.gnml
+  identifier: br_08_default_br_green_train
+  name_string: str_br_08_default_br_green_train_name
+  strings:
+    str_br_76_prototype_default_br_green_train_nested_name: '{SILVER}Locomotive{BLACK}
+      - {GOLD}BR Green'
+    str_br_08_default_br_green_train_name: Class 08 "Gronk" - {SILVER}Locomotive{BLACK}
+      - {GOLD}BR Green
+    str_br_08_default_br_green_train_group_name: Class 08 "Gronk" - {SILVER}Locomotive{BLACK}
+      - {GOLD}BR Green
+- id: 1036
+  vehicle: br_08
+  profile: default
+  livery: br blue
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1036_br_08_default_br_blue_train.gnml
+  identifier: br_08_default_br_blue_train
+  name_string: str_br_08_default_br_blue_train_name
+  strings:
+    str_br_76_prototype_default_br_blue_train_nested_name: '{SILVER}Locomotive{BLACK}
+      - {GOLD}BR Blue'
+    str_br_08_default_br_blue_train_name: Class 08 "Gronk" - {SILVER}Locomotive{BLACK}
+      - {GOLD}BR Blue
+    str_br_08_default_br_blue_train_group_name: Class 08 "Gronk" - {SILVER}Locomotive{BLACK}
+      - {GOLD}BR Blue
+- id: 1037
+  vehicle: br_08
+  profile: default
+  livery: br black
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1037_br_08_default_br_black_train.gnml
+  identifier: br_08_default_br_black_train
+  name_string: str_br_08_default_br_black_train_name
+  strings:
+    str_br_76_prototype_default_br_black_train_nested_name: '{SILVER}Locomotive{BLACK}
+      - {GOLD}BR Black'
+    str_br_08_default_br_black_train_name: Class 08 "Gronk" - {SILVER}Locomotive{BLACK}
+      - {GOLD}BR Black
+    str_br_08_default_br_black_train_group_name: Class 08 "Gronk" - {SILVER}Locomotive{BLACK}
+      - {GOLD}BR Black
+- id: 1038
+  vehicle: br_08
+  profile: default
+  livery: br red
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1038_br_08_default_br_red_train.gnml
+  identifier: br_08_default_br_red_train
+  name_string: str_br_08_default_br_red_train_name
+  strings:
+    str_br_08_default_br_red_train_name: Class 08 "Gronk" - {SILVER}Locomotive{BLACK}
+      - {GOLD}BR Red
+    str_br_08_default_br_red_train_group_name: Class 08 "Gronk" - {SILVER}Locomotive{BLACK}
+      - {GOLD}BR Red
+    str_br_08_default_br_red_train_nested_name: '{SILVER}Locomotive{BLACK} - {GOLD}BR
+      Red'
+- id: 1039
+  vehicle: br_08
+  profile: default
+  livery: br general grey
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1039_br_08_default_br_general_grey_train.gnml
+  identifier: br_08_default_br_general_grey_train
+  name_string: str_br_08_default_br_general_grey_train_name
+  strings:
+    str_br_08_default_br_general_grey_train_name: Class 08 "Gronk" - {SILVER}Locomotive{BLACK}
+      - {GOLD}BR General Grey
+    str_br_08_default_br_general_grey_train_group_name: Class 08 "Gronk" - {SILVER}Locomotive{BLACK}
+      - {GOLD}BR General Grey
+    str_br_08_default_br_general_grey_train_nested_name: '{SILVER}Locomotive{BLACK}
+      - {GOLD}BR General Grey'
+- id: 1040
+  vehicle: br_08
+  profile: default
+  livery: network rail yellow
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1040_br_08_default_network_rail_yellow_train.gnml
+  identifier: br_08_default_network_rail_yellow_train
+  name_string: str_br_08_default_network_rail_yellow_train_name
+  strings:
+    str_br_08_default_network_rail_yellow_train_name: Class 08 "Gronk" - {SILVER}Locomotive{BLACK}
+      - {GOLD}Network Rail Yellow
+    str_br_08_default_network_rail_yellow_train_group_name: Class 08 "Gronk" - {SILVER}Locomotive{BLACK}
+      - {GOLD}Network Rail Yellow
+    str_br_08_default_network_rail_yellow_train_nested_name: '{SILVER}Locomotive{BLACK}
+      - {GOLD}Network Rail Yellow'
+- id: 1041
+  vehicle: br_08
+  profile: default
+  livery: purple
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1041_br_08_default_purple_train.gnml
+  identifier: br_08_default_purple_train
+  name_string: str_br_08_default_purple_train_name
+  strings:
+    str_br_08_default_purple_train_name: Class 08 "Gronk" - {SILVER}Locomotive{BLACK}
+      - {GOLD}Purple
+    str_br_08_default_purple_train_group_name: Class 08 "Gronk" - {SILVER}Locomotive{BLACK}
+      - {GOLD}Purple
+    str_br_08_default_purple_train_nested_name: '{SILVER}Locomotive{BLACK} - {GOLD}Purple'
+- id: 1042
+  vehicle: br_08
+  profile: default
+  livery: intercity swallow
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1042_br_08_default_intercity_swallow_train.gnml
+  identifier: br_08_default_intercity_swallow_train
+  name_string: str_br_08_default_intercity_swallow_train_name
+  strings:
+    str_br_08_default_intercity_swallow_train_name: Class 08 "Gronk" - {SILVER}Locomotive{BLACK}
+      - {GOLD}InterCity Swallow
+    str_br_08_default_intercity_swallow_train_group_name: Class 08 "Gronk" - {SILVER}Locomotive{BLACK}
+      - {GOLD}InterCity Swallow
+    str_br_08_default_intercity_swallow_train_nested_name: '{SILVER}Locomotive{BLACK}
+      - {GOLD}InterCity Swallow'
+- id: 1043
+  vehicle: br_08
+  profile: default
+  livery: ews red and gold
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1043_br_08_default_ews_red_and_gold_train.gnml
+  identifier: br_08_default_ews_red_and_gold_train
+  name_string: str_br_08_default_ews_red_and_gold_train_name
+  strings:
+    str_br_08_default_ews_red_and_gold_train_name: Class 08 "Gronk" - {SILVER}Locomotive{BLACK}
+      - {GOLD}EWS Red and Gold
+    str_br_08_default_ews_red_and_gold_train_group_name: Class 08 "Gronk" - {SILVER}Locomotive{BLACK}
+      - {GOLD}EWS Red and Gold
+    str_br_08_default_ews_red_and_gold_train_nested_name: '{SILVER}Locomotive{BLACK}
+      - {GOLD}EWS Red and Gold'
+- id: 1044
+  vehicle: br_08
+  profile: default
+  livery: db schenker
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1044_br_08_default_db_schenker_train.gnml
+  identifier: br_08_default_db_schenker_train
+  name_string: str_br_08_default_db_schenker_train_name
+  strings:
+    str_br_08_default_db_schenker_train_name: Class 08 "Gronk" - {SILVER}Locomotive{BLACK}
+      - {GOLD}DB Schenker
+    str_br_08_default_db_schenker_train_group_name: Class 08 "Gronk" - {SILVER}Locomotive{BLACK}
+      - {GOLD}DB Schenker
+    str_br_08_default_db_schenker_train_nested_name: '{SILVER}Locomotive{BLACK} -
+      {GOLD}DB Schenker'
+- id: 1045
+  vehicle: br_08
+  profile: default
+  livery: emt
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1045_br_08_default_emt_train.gnml
+  identifier: br_08_default_emt_train
+  name_string: str_br_08_default_emt_train_name
+  strings:
+    str_br_08_default_emt_train_name: Class 08 "Gronk" - {SILVER}Locomotive{BLACK}
+      - {GOLD}EMT
+    str_br_08_default_emt_train_group_name: Class 08 "Gronk" - {SILVER}Locomotive{BLACK}
+      - {GOLD}EMT
+    str_br_08_default_emt_train_nested_name: '{SILVER}Locomotive{BLACK} - {GOLD}EMT'
+- id: 1046
+  vehicle: br_08
+  profile: default
+  livery: gbrf
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1046_br_08_default_gbrf_train.gnml
+  identifier: br_08_default_gbrf_train
+  name_string: str_br_08_default_gbrf_train_name
+  strings:
+    str_br_08_default_gbrf_train_name: Class 08 "Gronk" - {SILVER}Locomotive{BLACK}
+      - {GOLD}GBRf
+    str_br_08_default_gbrf_train_group_name: Class 08 "Gronk" - {SILVER}Locomotive{BLACK}
+      - {GOLD}GBRf
+    str_br_08_default_gbrf_train_nested_name: '{SILVER}Locomotive{BLACK} - {GOLD}GBRf'
+- id: 1047
+  vehicle: br_08
+  profile: default
+  livery: freightliner green
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1047_br_08_default_freightliner_green_train.gnml
+  identifier: br_08_default_freightliner_green_train
+  name_string: str_br_08_default_freightliner_green_train_name
+  strings:
+    str_br_08_default_freightliner_green_train_name: Class 08 "Gronk" - {SILVER}Locomotive{BLACK}
+      - {GOLD}Freightliner Green
+    str_br_08_default_freightliner_green_train_group_name: Class 08 "Gronk" - {SILVER}Locomotive{BLACK}
+      - {GOLD}Freightliner Green
+    str_br_08_default_freightliner_green_train_nested_name: '{SILVER}Locomotive{BLACK}
+      - {GOLD}Freightliner Green'
+- id: 1048
+  vehicle: br_08
+  profile: default
+  livery: freightliner orange
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1048_br_08_default_freightliner_orange_train.gnml
+  identifier: br_08_default_freightliner_orange_train
+  name_string: str_br_08_default_freightliner_orange_train_name
+  strings:
+    str_br_08_default_freightliner_orange_train_name: Class 08 "Gronk" - {SILVER}Locomotive{BLACK}
+      - {GOLD}Freightliner Orange
+    str_br_08_default_freightliner_orange_train_group_name: Class 08 "Gronk" - {SILVER}Locomotive{BLACK}
+      - {GOLD}Freightliner Orange
+    str_br_08_default_freightliner_orange_train_nested_name: '{SILVER}Locomotive{BLACK}
+      - {GOLD}Freightliner Orange'
+- id: 1049
+  vehicle: br_08
+  profile: default
+  livery: nse
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1049_br_08_default_nse_train.gnml
+  identifier: br_08_default_nse_train
+  name_string: str_br_08_default_nse_train_name
+  strings:
+    str_br_08_default_nse_train_name: Class 08 "Gronk" - {SILVER}Locomotive{BLACK}
+      - {GOLD}NSE
+    str_br_08_default_nse_train_group_name: Class 08 "Gronk" - {SILVER}Locomotive{BLACK}
+      - {GOLD}NSE
+    str_br_08_default_nse_train_nested_name: '{SILVER}Locomotive{BLACK} - {GOLD}NSE'
+- id: 1050
+  vehicle: br_08
+  profile: default
+  livery: progress rail
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1050_br_08_default_progress_rail_train.gnml
+  identifier: br_08_default_progress_rail_train
+  name_string: str_br_08_default_progress_rail_train_name
+  strings:
+    str_br_08_default_progress_rail_train_name: Class 08 "Gronk" - {SILVER}Locomotive{BLACK}
+      - {GOLD}Progress Rail
+    str_br_08_default_progress_rail_train_group_name: Class 08 "Gronk" - {SILVER}Locomotive{BLACK}
+      - {GOLD}Progress Rail
+    str_br_08_default_progress_rail_train_nested_name: '{SILVER}Locomotive{BLACK}
+      - {GOLD}Progress Rail'
+- id: 1051
+  vehicle: br_08
+  profile: default
+  livery: livery refits
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1051_br_08_default_livery_refits_train.gnml
+  identifier: br_08_default_livery_refits_train
+  name_string: str_br_08_default_livery_refits_train_name
+  strings:
+    str_br_76_prototype_default_livery_refits_train_nested_name: '{SILVER}Locomotive{BLACK}
+      - {GOLD}Livery Refits'
+    str_br_08_default_livery_refits_train_name: Class 08 "Gronk" - {SILVER}Locomotive{BLACK}
+      - {GOLD}Livery Refits
+    str_br_08_default_livery_refits_train_group_name: Class 08 "Gronk" - {SILVER}Locomotive{BLACK}
+      - {GOLD}Livery Refits
+    str_br_76_prototype_default_livery_refits_train_refit_text_1: BR Black
+    str_br_76_prototype_default_livery_refits_train_refit_text_2: BR Green
+    str_br_76_prototype_default_livery_refits_train_refit_text_4: BR Blue
+    str_br_mpv_dualfreight_default_livery_refits_train_refit_text_0: Network Rail
+      Yellow
+    str_br_08_default_livery_refits_train_refit_text_3: BR Red
+    str_br_08_default_livery_refits_train_refit_text_4: BR General Grey
+    str_br_08_default_livery_refits_train_refit_text_6: Purple
+    str_br_08_default_livery_refits_train_refit_text_7: InterCity Swallow
+    str_br_08_default_livery_refits_train_refit_text_8: EWS Red and Gold
+    str_br_08_default_livery_refits_train_refit_text_9: DB Schenker
+    str_br_08_default_livery_refits_train_refit_text_10: EMT
+    str_br_08_default_livery_refits_train_refit_text_11: GBRf
+    str_br_08_default_livery_refits_train_refit_text_12: Freightliner Green
+    str_br_08_default_livery_refits_train_refit_text_13: Freightliner Orange
+    str_br_08_default_livery_refits_train_refit_text_14: NSE
+    str_br_08_default_livery_refits_train_refit_text_15: Progress Rail
+- id: 1052
+  vehicle: br_kestrel
+  profile: default
+  livery: kestrel black and yellow
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1052_br_kestrel_default_kestrel_black_and_yellow_train.gnml
+  identifier: br_kestrel_default_kestrel_black_and_yellow_train
+  name_string: str_br_kestrel_default_kestrel_black_and_yellow_train_name
+  strings:
+    str_br_kestrel_default_kestrel_black_and_yellow_train_name: Kestrel - {SILVER}Locomotive{BLACK}
+      - {GOLD}Kestrel Black and Yellow
+    str_br_kestrel_default_kestrel_black_and_yellow_train_group_name: Kestrel - {SILVER}Locomotive{BLACK}
+      - {GOLD}Kestrel Black and Yellow
+    str_br_kestrel_default_kestrel_black_and_yellow_train_nested_name: '{SILVER}Locomotive{BLACK}
+      - {GOLD}Kestrel Black and Yellow'
+- id: 1053
+  vehicle: eye_candy_utilitytrain24px
+  profile: default
+  livery: default
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 6
+  archive: generated_variants/1053_eye_candy_utilitytrain24px_default_default_train.gnml
+  identifier: eye_candy_utilitytrain24px_default_default_train
+  name_string: str_eye_candy_utilitytrain24px_default_default_train_name
+  strings:
+    str_eye_candy_utilitytrain24px_default_default_train_name: '{RED}(devmode){BLACK}
+      Utility Train 24px - {SILVER}coach{BLACK}'
+    str_eye_candy_utilitytrain24px_default_default_train_group_name: '{RED}(devmode){BLACK}
+      Utility Train 24px - {SILVER}coach{BLACK}'
+    str_eye_candy_utilitytrain24px_default_default_train_nested_name: '{SILVER}coach{BLACK}'
+- id: 1054
+  vehicle: eye_candy_utilitytrain32px
+  profile: default
+  livery: default
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1054_eye_candy_utilitytrain32px_default_default_train.gnml
+  identifier: eye_candy_utilitytrain32px_default_default_train
+  name_string: str_eye_candy_utilitytrain32px_default_default_train_name
+  strings:
+    str_eye_candy_utilitytrain24px_default_default_train_nested_name: '{SILVER}coach{BLACK}'
+    str_eye_candy_utilitytrain32px_default_default_train_name: '{RED}(devmode){BLACK}
+      Utility Train 32px - {SILVER}coach{BLACK}'
+    str_eye_candy_utilitytrain32px_default_default_train_group_name: '{RED}(devmode){BLACK}
+      Utility Train 32px - {SILVER}coach{BLACK}'
+- id: 1055
+  vehicle: eye_candy_utilitytrain8px
+  profile: default
+  livery: default
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 2
+  archive: generated_variants/1055_eye_candy_utilitytrain8px_default_default_train.gnml
+  identifier: eye_candy_utilitytrain8px_default_default_train
+  name_string: str_eye_candy_utilitytrain8px_default_default_train_name
+  strings:
+    str_eye_candy_utilitytrain24px_default_default_train_nested_name: '{SILVER}coach{BLACK}'
+    str_eye_candy_utilitytrain8px_default_default_train_name: '{RED}(devmode){BLACK}
+      Utility Train 8px - {SILVER}coach{BLACK}'
+    str_eye_candy_utilitytrain8px_default_default_train_group_name: '{RED}(devmode){BLACK}
+      Utility Train 8px - {SILVER}coach{BLACK}'
+- id: 1056
+  vehicle: eye_candy_utilitytrain20px
+  profile: default
+  livery: default
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/1056_eye_candy_utilitytrain20px_default_default_train.gnml
+  identifier: eye_candy_utilitytrain20px_default_default_train
+  name_string: str_eye_candy_utilitytrain20px_default_default_train_name
+  strings:
+    str_eye_candy_utilitytrain24px_default_default_train_nested_name: '{SILVER}coach{BLACK}'
+    str_eye_candy_utilitytrain20px_default_default_train_name: '{RED}(devmode){BLACK}
+      Utility Train 20px - {SILVER}coach{BLACK}'
+    str_eye_candy_utilitytrain20px_default_default_train_group_name: '{RED}(devmode){BLACK}
+      Utility Train 20px - {SILVER}coach{BLACK}'
+- id: 1057
+  vehicle: eye_candy_utilitytrain28pxold
+  profile: default
+  livery: default
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 7
+  archive: generated_variants/1057_eye_candy_utilitytrain28pxold_default_default_train.gnml
+  identifier: eye_candy_utilitytrain28pxold_default_default_train
+  name_string: str_eye_candy_utilitytrain28pxold_default_default_train_name
+  strings:
+    str_eye_candy_utilitytrain24px_default_default_train_nested_name: '{SILVER}coach{BLACK}'
+    str_eye_candy_utilitytrain28pxold_default_default_train_name: '{RED}(devmode){BLACK}
+      Utility Train 28pxOLD - {SILVER}coach{BLACK}'
+    str_eye_candy_utilitytrain28pxold_default_default_train_group_name: '{RED}(devmode){BLACK}
+      Utility Train 28pxOLD - {SILVER}coach{BLACK}'
+- id: 1058
+  vehicle: eye_candy_utilitytrain28px
+  profile: default
+  livery: default
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 7
+  archive: generated_variants/1058_eye_candy_utilitytrain28px_default_default_train.gnml
+  identifier: eye_candy_utilitytrain28px_default_default_train
+  name_string: str_eye_candy_utilitytrain28px_default_default_train_name
+  strings:
+    str_eye_candy_utilitytrain24px_default_default_train_nested_name: '{SILVER}coach{BLACK}'
+    str_eye_candy_utilitytrain28px_default_default_train_name: '{RED}(devmode){BLACK}
+      Utility Train 28px - {SILVER}coach{BLACK}'
+    str_eye_candy_utilitytrain28px_default_default_train_group_name: '{RED}(devmode){BLACK}
+      Utility Train 28px - {SILVER}coach{BLACK}'
+- id: 1059
+  vehicle: eye_candy_utilitytrain12px
+  profile: default
+  livery: default
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 3
+  archive: generated_variants/1059_eye_candy_utilitytrain12px_default_default_train.gnml
+  identifier: eye_candy_utilitytrain12px_default_default_train
+  name_string: str_eye_candy_utilitytrain12px_default_default_train_name
+  strings:
+    str_eye_candy_utilitytrain24px_default_default_train_nested_name: '{SILVER}coach{BLACK}'
+    str_eye_candy_utilitytrain12px_default_default_train_name: '{RED}(devmode){BLACK}
+      Utility Train 12px - {SILVER}coach{BLACK}'
+    str_eye_candy_utilitytrain12px_default_default_train_group_name: '{RED}(devmode){BLACK}
+      Utility Train 12px - {SILVER}coach{BLACK}'
+- id: 1060
+  vehicle: eye_candy_utilitytrain16px
+  profile: default
+  livery: default
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 4
+  archive: generated_variants/1060_eye_candy_utilitytrain16px_default_default_train.gnml
+  identifier: eye_candy_utilitytrain16px_default_default_train
+  name_string: str_eye_candy_utilitytrain16px_default_default_train_name
+  strings:
+    str_eye_candy_utilitytrain24px_default_default_train_nested_name: '{SILVER}coach{BLACK}'
+    str_eye_candy_utilitytrain16px_default_default_train_name: '{RED}(devmode){BLACK}
+      Utility Train 16px - {SILVER}coach{BLACK}'
+    str_eye_candy_utilitytrain16px_default_default_train_group_name: '{RED}(devmode){BLACK}
+      Utility Train 16px - {SILVER}coach{BLACK}'
+- id: 1061
+  vehicle: eye_candy_utilitytrain32pxold
+  profile: default
+  livery: default
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 8
+  archive: generated_variants/1061_eye_candy_utilitytrain32pxold_default_default_train.gnml
+  identifier: eye_candy_utilitytrain32pxold_default_default_train
+  name_string: str_eye_candy_utilitytrain32pxold_default_default_train_name
+  strings:
+    str_eye_candy_utilitytrain24px_default_default_train_nested_name: '{SILVER}coach{BLACK}'
+    str_eye_candy_utilitytrain32pxold_default_default_train_name: '{RED}(devmode){BLACK}
+      Utility Train 32pxOLD - {SILVER}coach{BLACK}'
+    str_eye_candy_utilitytrain32pxold_default_default_train_group_name: '{RED}(devmode){BLACK}
+      Utility Train 32pxOLD - {SILVER}coach{BLACK}'
+- id: 1062
+  vehicle: eye_candy_utilitytrain4px
+  profile: default
+  livery: default
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 1
+  archive: generated_variants/1062_eye_candy_utilitytrain4px_default_default_train.gnml
+  identifier: eye_candy_utilitytrain4px_default_default_train
+  name_string: str_eye_candy_utilitytrain4px_default_default_train_name
+  strings:
+    str_eye_candy_utilitytrain24px_default_default_train_nested_name: '{SILVER}coach{BLACK}'
+    str_eye_candy_utilitytrain4px_default_default_train_name: '{RED}(devmode){BLACK}
+      Utility Train 4px - {SILVER}coach{BLACK}'
+    str_eye_candy_utilitytrain4px_default_default_train_group_name: '{RED}(devmode){BLACK}
+      Utility Train 4px - {SILVER}coach{BLACK}'

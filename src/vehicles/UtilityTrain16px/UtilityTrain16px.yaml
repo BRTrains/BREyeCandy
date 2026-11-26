@@ -1,0 +1,31 @@
+info:
+  identifier: eye_candy_utilitytrain16px
+  name: Utility Train 16px
+
+stats:
+  vehicle_type: train
+  train_type: coach
+  weight: 1
+  length: 4
+  power: 0
+  speed: 50
+  tractive_effort: 0
+  track_type:
+    - RAIL
+
+usage: [UTILITY]
+cargo: none
+development: true
+
+dates:
+  introduction_date: 1700-01-01
+  model_life: 0
+  vehicle_life: 255
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 0
+
+liveries:
+  - name: Default

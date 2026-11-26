@@ -1,0 +1,32 @@
+info:
+  identifier: br_flying_banana
+  name: 'Flying Banana'
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  weight: 305
+  length: 8
+  power: 4500
+  speed: 125
+  tractive_effort: 0.3
+  power_type:
+    - diesel
+
+usage: [PASSENGER, INTERCITY]
+
+cargo: passenger
+
+dates:
+  introduction_date: 2003-01-01
+
+profiles:
+  - identifier: DEFAULT
+    name: 7-Car
+    num_vehicles: 7
+    formation: 5-car
+    capacity: 44
+
+liveries:
+  - name: 'Network Rail'
+    special_tags: [operator/Network Rail]

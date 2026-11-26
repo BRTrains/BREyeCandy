@@ -1,0 +1,32 @@
+info:
+  identifier: br_80
+  name: 'Class 80 (25kV Prototype)'
+
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  weight: 109
+  length: 8
+  power: 2500
+  speed: 90
+  tractive_effort: 0.3
+  track_type:
+    - ELRL
+  power_type:
+    - electric
+
+usage: [PROTOTYPE]
+
+cargo: none
+
+dates:
+  introduction_date: 1958-01-01
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 1
+    capacity: 0
+
+liveries:
+  - name: 'BR Black'
+    special_tags: [operator/BR]
